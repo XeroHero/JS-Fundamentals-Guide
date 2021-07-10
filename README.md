@@ -20,8 +20,8 @@ This means that a program written in a dynamically-typed language (like JavaScri
 
 Convenient, but not always ideal. Which is why tools like Flow and TypeScript have recently stepped in to give JavaScript developers the _option_ to use static types.
 
-(Flow)[https://flowtype.org/] is an open-source static type checking library developed and released by Facebook that allows you to incrementally add types to your JavaScript code.
+[Flow](https://flowtype.org/) is an open-source static type checking library developed and released by Facebook that allows you to incrementally add types to your JavaScript code.
 
-TypeScript, on the other hand, is a superset that compiles down to JavaScript — although it feels almost like a new statically-typed language in its own right. That said, it looks and feels very similar to JavaScript and isn’t hard to pick up.
+[TypeScript](https://www.typescriptlang.org/), on the other hand, is a superset that compiles down to JavaScript — although it feels almost like a new statically-typed language in its own right. That said, it looks and feels very similar to JavaScript and isn’t hard to pick up.
 
-In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the .ts extension instead of .js. For Flow, you include a comment on top of the file with @flow
+In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the `.ts` extension instead of `.js`. For Flow, you include a comment on top of the file with `@flow`.
