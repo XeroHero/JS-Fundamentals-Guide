@@ -1,4 +1,4 @@
-# JS-with-Kay
+# JS Quick Reference Guide
 
 ## Session 1: JS Syntax Fundamentals
 
