@@ -166,3 +166,19 @@ Operations that can be performed on arrays:
 * `delete` removes an item at a particular location in the array, replacing it with `empty` value.
 * `splice` removes value(s) between two positions in an array. The syntax is as follows: `splice(start, numberOfElements)`.
 * `length` retrieves the size of the array.
+
+#### Comparison Operators
+
+Suppose we declare two variables as follows:
+```
+var one = 1, two = 2;
+```
+We can compare these two variables together using the following operations:
+* Equal: `one === one;` => true
+* Not Equal: `one !== one;` => false
+* Less than: `one < two;` => true
+* Greater than: `one > two;` => false
+* Less than or Equal to: `one <= two;` => true
+* Greater than or Equal to: `one >= two;` => false
+
+We can also use these operators with values not in variables: eg. `10 >= two` => true
