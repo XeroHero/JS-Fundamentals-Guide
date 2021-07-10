@@ -26,7 +26,7 @@ Convenient, but not always ideal. Which is why tools like Flow and TypeScript ha
 
 In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the `.ts` extension instead of `.js`. For Flow, you include a comment on top of the file with `@flow`.
 
-##### Syntax and language
+#### Syntax and language
 
 Let’s begin by examining some JavaScript primitives, as well as constructs like Arrays, Object, Functions, and etc.
 
@@ -61,7 +61,7 @@ function acceptsMaybeNumber(value: ?number) {
 }
 ```
 
-###### Functions
+##### Functions
 Functions are like reusable code blocks. Instead of typing out the same code block every time, we can have it only once in our code, and then just *call* or refer to that code block by typing in its name.
 
 A function declaration is as follows
@@ -133,7 +133,7 @@ If we want to make a copy of the object, we must execute the statement above to 
 
 This makes the two objects really separate and different, so they can be modified independently.
 
-###### Arrays
+##### Arrays
 
 Arrays are collections of elements of the same type. We can declare them as follows:
 `var myArray = [];`.
@@ -157,7 +157,7 @@ var arrayOfStuff = [
 ```
 Another interesting property of arrays is the fact that you can check their size (how many elements they contain): `arrayOfStuff.length` and that will return the value `4`.
 
-######## Manipulating Arrays (LIFO)
+##### Manipulating Arrays (LIFO)
 
 Operations that can be performed on arrays:
 
