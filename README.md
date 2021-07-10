@@ -40,7 +40,7 @@ The main types of variables in JavaScript are given below:
 * *string*: Sequence of characters
 * ⚠️ *null* and *void*: These are some special data types, we will look at them later on.
 * *Array*: Arrays are "collections" of similarly-typed objects. These can be strings, numbers for example.
-* *Object*: This is another special data type. Essentially, it allows us to spawn up new, custom data types. For example:
+* *Object*: This is another special data type. Essentially, it allows us to spawn up new, custom data types, with various *attributes* inside them. For example:
 
 ```
 var bird = {
