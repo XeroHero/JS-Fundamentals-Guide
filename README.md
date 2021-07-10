@@ -54,4 +54,26 @@ var bird = {
   deadly: false
 };
 ```
-This allows us to define our own data type (above we have defined a `bird` data type, which is obviously not part of native JS).
+    This allows us to define our own data type (above we have defined a `bird` data type, which is obviously not part of native JS).
+* *any*: This is a generic type, and is effectively unchecked. Is is not recommended to use this type anywhere in code unless a specific scenario requires it.
+* *Maybe*: This is another special type, which allows its contents to be nullable (`null`) or `undefined`, as well as any of the above. To define a `maybe` type, we simply add a `?` before the type, like follows:
+
+```
+function acceptsMaybeNumber(value: ?number) {
+  //some code
+}
+```
+
+###### Functions
+Functions are like reusable code blocks. Instead of typing out the same code block every time, we can have it only once in our code, and then just *call* or refer to that code block by typing in its name.
+
+A function declaration is as follows
+
+```
+function myFunction(arguments) {
+  // do some stuff...
+  return data;
+}
+```
+
+We can then call this function using the syntax `function(data);` instead of having to type the code within it every time.
