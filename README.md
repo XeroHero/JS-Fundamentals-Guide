@@ -157,7 +157,7 @@ var arrayOfStuff = [
 ```
 Another interesting property of arrays is the fact that you can check their size (how many elements they contain): `arrayOfStuff.length` and that will return the value `4`.
 
-##### Manipulating Arrays (LIFO)
+###### Manipulating Arrays (LIFO)
 
 Operations that can be performed on arrays:
 
