@@ -4,7 +4,7 @@
 
 ### Basic Types
 
-#### Static vs Dynamic types
+#### Static vs Dynamic types
 
 The quickest way to understand static types is to contrast them with dynamic types. A language with static types is referred to as a statically-typed language. On the other hand, a language with dynamic types is referred to as a dynamically-typed language.
 
@@ -26,7 +26,7 @@ Convenient, but not always ideal. Which is why tools like Flow and TypeScript ha
 
 In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the `.ts` extension instead of `.js`. For Flow, you include a comment on top of the file with `@flow`.
 
-##### Flow Syntax and language
+##### Flow Syntax and language
 
 Let’s begin by examining some JavaScript primitives, as well as constructs like Arrays, Object, Functions, and etc.
 
