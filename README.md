@@ -25,3 +25,33 @@ Convenient, but not always ideal. Which is why tools like Flow and TypeScript ha
 [TypeScript](https://www.typescriptlang.org/), on the other hand, is a superset that compiles down to JavaScript — although it feels almost like a new statically-typed language in its own right. That said, it looks and feels very similar to JavaScript and isn’t hard to pick up.
 
 In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the `.ts` extension instead of `.js`. For Flow, you include a comment on top of the file with `@flow`.
+
+##### Flow Syntax and language
+
+Let’s begin by examining some JavaScript primitives, as well as constructs like Arrays, Object, Functions, and etc.
+
+NB: in Flow, the syntax for declaring static types is as follows: `var myBoolean: boolean = false;`. It always follows the patters `var` followed by the name of our variable, followed by a colon (`:`) and a space, followed by the type of the variable and optionally an assignment. Note that it is not required to terminate a statement with a semicolon (`;`).
+
+The main types of variables in JavaScript are given below:
+
+* *boolean*: Describes a `true` or `false` value in JavaScript
+* *number*: Describes a double-precision floating-point number. There are no such thing as integers, doubles, floats, long, shorts, etc. in JavaScript.
+`number` includes `Infinity` and `NaN`.
+* *string*: Sequence of characters
+* ⚠️ *null* and *void*: These are some special data types, we will look at them later on.
+* *Array*: Arrays are "collections" of similarly-typed objects. These can be strings, numbers for example.
+* *Object*: This is another special data type. Essentially, it allows us to spawn up new, custom data types. For example:
+
+```
+var bird = {
+  genus: "corvus",
+  species: "corvax",
+  commonName: "raven",
+  callType: "squawky",
+  quote: "Nevermore",
+  maxOffspring: 5,
+  noisy: true,
+  deadly: false
+};
+```
+This allows us to define our own data type (above we have defined a `bird` data type, which is obviously not part of native JS).
