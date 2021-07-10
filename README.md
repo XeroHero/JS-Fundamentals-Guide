@@ -54,7 +54,7 @@ var bird = {
   deadly: false
 };
 ```
-    This allows us to define our own data type (above we have defined a `bird` data type, which is obviously not part of native JS).
+This allows us to define our own data type (above we have defined a `bird` data type, which is obviously not part of native JS).
 * *any*: This is a generic type, and is effectively unchecked. Is is not recommended to use this type anywhere in code unless a specific scenario requires it.
 * *Maybe*: This is another special type, which allows its contents to be nullable (`null`) or `undefined`, as well as any of the above. To define a `maybe` type, we simply add a `?` before the type, like follows:
 
