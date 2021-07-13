@@ -1,10 +1,8 @@
-# JS Quick Reference Guide
+# Session 1: JS Syntax Fundamentals
 
-## Session 1: JS Syntax Fundamentals
+## Part 1: Basic Types
 
-### Basic Types
-
-#### Static vs Dynamic types
+### Static vs Dynamic types
 
 The quickest way to understand static types is to contrast them with dynamic types. A language with static types is referred to as a statically-typed language. On the other hand, a language with dynamic types is referred to as a dynamically-typed language.
 
@@ -26,7 +24,7 @@ Convenient, but not always ideal. Which is why tools like Flow and TypeScript ha
 
 In either case, when you want to use types, you explicitly tell the tool about which file(s) to type-check. For TypeScript you do this by writing files with the `.ts` extension instead of `.js`. For Flow, you include a comment on top of the file with `@flow`.
 
-#### Syntax and language
+## Part 2: Syntax and language
 
 Let’s begin by examining some JavaScript primitives, as well as constructs like Arrays, Object, Functions, and etc.
 
@@ -61,7 +59,7 @@ function acceptsMaybeNumber(value: ?number) {
 }
 ```
 
-##### Functions
+### Functions
 Functions are like reusable code blocks. Instead of typing out the same code block every time, we can have it only once in our code, and then just *call* or refer to that code block by typing in its name.
 
 A function declaration is as follows
@@ -75,7 +73,7 @@ function myFunction(arguments) {
 
 We can then call this function using the syntax `function(data);` instead of having to type the code within it every time.
 
-##### Objects in JavaScript
+### Objects in JavaScript
 
 Objects allow us to model real-world scenarios with properties. For example, for a `dog` object, I could have a property called `breed` which accepts a `string` value representing the dog's breed. This is called an *attribute* or property of an object.
 
@@ -105,7 +103,7 @@ To inspect every property of the object, simply type in the object name.
 
 To delete a property of an object, use the `delete` keyword: `delete bird.color`
 
-###### Objects and References
+#### Objects and References
 
 Objects are references to particular locations in the system's memory.
 
@@ -133,7 +131,7 @@ If we want to make a copy of the object, we must execute the statement above to 
 
 This makes the two objects really separate and different, so they can be modified independently.
 
-##### Arrays
+### Arrays
 
 Arrays are collections of elements of the same type. We can declare them as follows:
 `var myArray = [];`.
@@ -157,7 +155,7 @@ var arrayOfStuff = [
 ```
 Another interesting property of arrays is the fact that you can check their size (how many elements they contain): `arrayOfStuff.length` and that will return the value `4`.
 
-###### Manipulating Arrays (LIFO)
+#### Manipulating Arrays (LIFO)
 
 Operations that can be performed on arrays:
 
@@ -167,7 +165,7 @@ Operations that can be performed on arrays:
 * `splice` removes value(s) between two positions in an array. The syntax is as follows: `splice(start, numberOfElements)`.
 * `length` retrieves the size of the array.
 
-#### Comparison Operators
+### Comparison Operators
 
 Suppose we declare two variables as follows:
 ```
