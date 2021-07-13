@@ -13,4 +13,5 @@ The table below summarises each language's responsibilty in a typical website.
 |HTML|Foundations, calls everything else|
 |CSS|"Stylesheet", provides styles to the website|
 |JS|Makes the website interactive, with dynamic content|
-|AJAX|Allows us to interact with databases directly form the websit|
+|AJAX|Allows us to interact with databases directly from the websitE|
+
