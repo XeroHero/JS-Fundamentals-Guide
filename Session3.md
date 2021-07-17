@@ -1,4 +1,4 @@
-# Session 3: JS in Practice - Project tracker website development
+# Session 13: JS in Practice - Project tracker website development
 
 Today, we will be looking at making our first website using JavaScript. We have already learnt the basic constructs for designing fully fledged apps such as functions, variables, and data types.
 
