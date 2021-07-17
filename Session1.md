@@ -166,3 +166,50 @@ We can compare these two variables together using the following operations:
 * Greater than or Equal to: `one >= two;` => false
 
 We can also use these operators with values not in variables: eg. `10 >= two` => true
+
+### Taking Actions Based on Conditions
+
+We saw above how to verify conditions relating to numbers. Now suppose we wanted to take action based on these. For example, we may want to print a message telling them about the result.
+
+This is where the `if ... else` clause comes in handy. A clause here is simply meant as a seriens of statements that usually go together to perform a desired behaviour, sort of like a rule of grammar in a language.
+
+A very simple and quite limited example of this is veryfying the assignation of a variable. The script below shows how to do this with if-else clauses.
+
+```
+var variable = 123;
+
+if (variable === 123){
+  console.log("Variable has been assigned correctly");
+  }
+else {
+  console.log("Variable assignment error");
+  }
+  
+ ```
+ 
+ If we play this small script in our console, we notice the output as `Variable has been assigned correctly`. If however, we change the value on the first line to something like `var variable = "abc";`, and re-execute our code, the output will be different. 
+ 
+ This simple concept allows us to introduce variance into our code, and build a decision-making strategy into the code.
+ 
+ ### Switch Statements
+ 
+ Switch statements are another fashion of doing the same thing as above. It is often not very aesthetic to have lots of `if-else` blocks in code. A better approach is using a `switch` statement. 
+
+Switch statements compare the value of an expression against 1 or more values and executes different sections of code based on that comparison.
+
+Let's examine its syntax:
+ 
+ ```
+var value = 1; switch (value) {
+case 1:
+  console.log('I will always run'); break;
+case 2:
+  console.log('I will never run'); break;
+case ...
+
+}
+```
+
+As you can see, switch statements allow us to reduce the code lenght considerably. The `value` variable is compared to each of the `case` values, and when one is found to match, the corrponding code is executed.
+
+⚠️ If we omit the `break` keyword, the code will continue to check for matches in the remainder of the switch statement and could lead to undesired behaviour. 
