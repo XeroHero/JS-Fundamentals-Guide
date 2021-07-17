@@ -1,5 +1,17 @@
 # Session 1: JS Syntax Fundamentals
 
+NB: To execute these scripts, you can either set up the toolchain in your IDE of choice, or create a HTML file and call the JS file as follows:
+
+```
+<!DOCTYPE html>
+<head>
+	<script type="text/javascript" src="./path/to/script.js"></script>
+</head>
+<body>
+	<p>This page just demonstrates including a basic JavaScript file. The JavaScript file just tells an alert box to pop up when the page loads.</p>
+</body>
+</html>
+```
 ## Part 1: Basic Types
 
 ### Static vs Dynamic types
