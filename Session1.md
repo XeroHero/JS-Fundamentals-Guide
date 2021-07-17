@@ -213,3 +213,46 @@ case ...
 As you can see, switch statements allow us to reduce the code lenght considerably. The `value` variable is compared to each of the `case` values, and when one is found to match, the corrponding code is executed.
 
 ⚠️ If we omit the `break` keyword, the code will continue to check for matches in the remainder of the switch statement and could lead to undesired behaviour. 
+
+### Strategies
+
+A strategy pattern can be used in JavaScript in many cases to replace a switch statement. It is especially helpful when the number of conditions is dynamic or very large. It allows the code for each condition to be independent and separately testable.
+
+Strategy object is simple an object with multiple functions, representing each separate condition. Let's examine a simple example:
+
+```
+const AnimalSays = { 
+  dog () {
+    return 'woof';
+  },
+  cat () {
+    return 'meow';
+  },
+  lion () {
+    return 'roar';
+  },
+  // ... other animals
+  default () { 
+    return 'moo';
+  }
+};
+```
+
+The above object can be used as follows:
+
+```
+function makeAnimalSpeak (animal) {
+  // Match the animal by type
+  const speak = AnimalSays[animal] || AnimalSays.default; console.log(animal + ' says ' + speak());
+}
+```
+and willn yield the following results:
+
+```
+makeAnimalSpeak('dog') // => 'dog says woof' 
+makeAnimalSpeak('cat') // => 'cat says meow' 
+makeAnimalSpeak('lion') // => 'lion says roar' 
+makeAnimalSpeak('snake') // => 'snake says moo'
+```
+
+    
