@@ -10,4 +10,4 @@ It is used mostly in web development, in conjunction with some HTML and CSS (to 
 
 It can also be used as a scripting language in some applications, and has many variate uses in industry which we will touch on throughout this course.
 
-So, once you're ready, click <a href=https://github.com/XeroHero/JS-with-Kay/blob/main/Session1.md> here</a> to begin learning. To return to the previous page, use this button <a href="javascript:history.back()">here</a>
+So, once you're ready, click <a href=https://github.com/XeroHero/JS-with-Kay/blob/main/Session1.md> here</a> to begin learning.
