@@ -40,7 +40,7 @@ Another very important control structure in JavaScript is the `do-while` loop. L
 ```
 let i = 20;
 do {
-  console.log("The number is " + i);
+  console.log("i);
   i++;
 }
 while (i < 10);
