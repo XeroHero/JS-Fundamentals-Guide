@@ -28,3 +28,18 @@ let i = 0;
 ```
 
 This snippet above performs the exact same function as the for loop we examined previously.
+
+### The Do-While Loop
+
+Another very important control structure in JavaScript is the `do-while` loop. Let us examine this with an example.
+
+```
+let i = 20;
+do {
+  console.log("The number is " + i);
+  i++;
+}
+while (i < 10);
+```
+
+💡In this example above, the value 20 will be printed, even though the condition is the same as the previous ones. Why?
