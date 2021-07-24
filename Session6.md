@@ -15,7 +15,7 @@ for (let i = 0; i < 11; i++) {
 }
 ```
 
-💡Question: Why is the second number not 10?
+💡Question: Why is the second number not `10`?
 
 The above shows a form of loop known as the "for loop".  It is very commonly used.
 
@@ -29,7 +29,7 @@ let i = 0;
 }
 ```
 
-💡Question: Why is the condition not i<10?
+💡Question: Why is the condition not `i<10`?
 
 This snippet above performs the exact same function as the for loop we examined previously.
 
@@ -46,4 +46,4 @@ do {
 while (i < 10);
 ```
 
-💡In this example above, the value 20 will be printed, even though the condition is the same as the previous ones. Why?
+💡In this example above, the value `20` will be printed, even though the condition is the same as the previous ones. Why?
